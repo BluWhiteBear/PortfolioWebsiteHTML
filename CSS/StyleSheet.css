@@ -1,0 +1,311 @@
+/*GLOBAL CSS*/
+    html {
+        overflow: scroll;
+        overflow-x: hidden;
+    }
+
+
+
+
+
+
+        
+
+    /*Scrollbar*/
+        /* Width */
+            ::-webkit-scrollbar
+            {
+                width: 5px;
+            }
+
+        /* Track */
+            ::-webkit-scrollbar-track
+            {
+                background: rgba(0, 0, 0, 0);
+            }
+
+        /* Handle */
+            ::-webkit-scrollbar-thumb
+            {
+                background: rgb(190, 190, 190);
+            }
+
+        /* Handle on hover */
+            ::-webkit-scrollbar-thumb:hover
+            {
+                background: rgb(133, 133, 133);
+            }
+
+
+
+
+
+
+        
+
+    /*Nav-Bar*/
+        #IntroIcon
+        {
+            /*Image Styles*/
+            height: 70px;
+            width: 70px;
+        }
+
+        .navbar-collapse
+        {
+            /*Font Styles*/
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        #navbarSupportedContent
+        {
+            /*Container Styles*/
+            justify-content: right;
+            text-align: right;
+        }
+
+
+
+
+
+
+
+
+    /*Content*/
+        #PageName
+        {
+            /*Font Styles*/
+            font-weight: bold;
+        }
+
+        .container
+        {
+            /*Container Styles*/
+            padding: 0px;
+        }
+
+        #MainContentWrapper
+        {
+            /*Font Styles*/
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+            color: rgb(255, 255, 255);
+
+            /*Container Styles*/
+            height: 350px;
+            width: 100%;
+            background-color: #FF8490;
+        }
+
+        #SecondaryContentWrapper
+        {
+            /*Font Styles*/
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+            color: rgb(51, 51, 51);
+
+            /*Container Styles*/
+            height: auto;
+            width: auto;
+            padding-top: 20px;
+            background-color: #ffffff;
+        }
+
+        #MastheadImage
+        {
+        /*Container Styles*/
+        padding: 0px;            
+        }
+
+        .col-md-12
+        {
+            padding: 0%;
+        }
+
+        footer
+        {
+            padding: 0%;
+        }
+
+
+
+
+
+
+        
+
+/*Index CSS*/
+    #Name
+    {
+        /*Font Styles*/
+        font-size: 40px;
+        font-weight: bold;
+        line-height: 0.8;
+    }
+
+    #Short
+    {
+        /*Container Styles*/
+        margin-top: 50px;
+    }
+
+    #ShortDescription
+    {
+        /*Font Styles*/
+        color: rgb(255, 255, 255);
+    }
+
+    #ContentLogo
+    {
+        /*Image Styles*/
+        height: 150px;
+        width: 150px; 
+    }
+
+    #CurrentProjectHeader
+    {
+        /*Font Styles*/
+        font-size: 25px;
+        font-weight: bold;
+        text-decoration: underline;
+        color: rgb(51, 51, 51);
+
+        /*Container Styles*/
+        margin: 15px;
+    }
+
+    #CurrentProjectScreenshot
+    {
+        /*Container Styles*/
+        padding: 0px;
+    }
+
+    .figure
+    {
+        /*Font Styles*/
+        line-height: 1.25;
+
+        /*Container Styles*/
+        margin: 0px;
+        border: 0px;
+        padding: 0px;
+    }
+
+
+
+
+
+
+        
+
+/*AboutMe CSS*/
+    #ProgramShowcase
+    {
+        /*Font Styles*/
+        font-size: 15px;
+
+        /*Container Styles*/
+        padding: 10px;
+    }
+
+    #ProgramIcon
+    {
+        /*Container Styles*/
+        width: 100px;
+        height: auto;
+    }
+
+    #AboutMe
+    {
+        /*Font Styles*/
+        font-size: 15px;
+        line-height: 10px;
+    }
+
+    #BluPic
+    {
+        /*Image Styles*/
+        width: 150px;
+        height: auto; 
+    }
+
+
+
+
+
+
+        
+     
+/*Portfolio CSS*/
+    #ProjectContentWrapper
+    {
+        /*Font Styles*/
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+        color: rgb(255, 255, 255);
+
+        /*Container Styles*/
+        height: auto;
+        width: 100%;
+        background-color: #FF8490;
+    }
+
+    #projectThumbnail
+    {
+        /*Image Styles*/
+        width: 400px;
+        height: auto;
+        padding: 20px;
+    }
+
+
+
+
+
+
+        
+   
+/*ContactMe CSS*/
+    #SocialIcon
+    {
+        /*Image Styles*/
+        width: 75px;
+        height: auto;
+    }
+
+    #MailContentWrapper
+    {
+        /*Font Styles*/
+        font-size: 15px;
+        font-weight: bold;
+        text-align: left;
+        color: rgb(255, 255, 255);
+        line-height: 25px;
+
+        /*Container Styles*/
+        height: auto;
+        width: 100%;
+        background-color: #FF8490;
+    }
+
+    .form-group
+    {
+        /*Container Styles*/
+        padding: 10px;
+    }
+
+    th
+    {
+        /*Container Styles*/
+        background-color: rgb(241, 101, 101);
+    }
+
+    tr:nth-child(even)
+    {
+        /*Container Styles*/
+        background-color: rgba(0, 0, 0, 0.116);
+    }
